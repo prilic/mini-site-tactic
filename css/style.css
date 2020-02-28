@@ -266,6 +266,10 @@ fieldset{
 .info-message img{
     display: none;
 }
+.flex-box form{
+    width: 90vw;
+    margin: auto;
+}
 /*Footer*/
 footer{
     border:1px solid #e4e9ec;
