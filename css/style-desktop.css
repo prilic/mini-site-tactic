@@ -1,0 +1,20 @@
+@media screen and (min-width:769){
+    /*Nav bar*/
+    /*Nav boutton*/
+    /*Nav elements*/
+    /*content elements*/
+    #landing{
+        width: auto;
+    }
+    .illustration{
+        width: 30%;
+    }
+    .box-element{
+        width: 30%;
+    }
+    .flex-box{
+        display: flex;
+    }
+    /*Contact form*/
+    /*Footer*/
+}
