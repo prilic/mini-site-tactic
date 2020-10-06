@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tactic Emploi - Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div id="flex-container">
+            <div id="logo">
+                <a href="../index.html"><img src="../images/logos/logo-tactic.svg" alt="logo tactic emploi"></a>
+            </div>
+            <div id="container">
+                <div class="strip1"></div>
+                <div class="strip2"></div>
+                <div class="strip3"></div>
+            </div>
+        </div>
+        <nav class="desktop">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="programme.html">Programme</a></li>
+                <li><a class="active" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="programme.html">Programme</a></li>
+                <li><a class="active" href="#">Contact</a></li>
+            </ul>
+    </nav>
+
+    <section id="contact-info">
+
+        <h1 class="padding-base">Contact</h1>
+
+        <div class="info">
+            <div class="info-element">
+                <h2>Adresse</h2>
+                <p>Rue du Bois Colau 321, 5350 Ohey (Belgique)</p>
+            </div>
+            <div class="info-element">
+                <h2>Téléphone</h2>
+                <p>+30 (0)80 98 38 33</p>    
+            </div>
+        </div>
+
+        <div class="flex-box">
+            <div class="info-message">
+                <h2>Formulaire de contact :</h2>
+                <p>N’hésitez pas à nous contacter en utilisant le formulaire:</p>
+                <div>
+                    <img src="../images/illustrations/undraw_manage_chats_ylx0.svg" alt="message">
+                </div>
+            </div>
+        
+                <form action="" method="">
+                    <label for="name">Comment vous appelez-vous ?*</label>
+                    <input type="text" name="name">
+                    <label for="mail">Quelle est votre adresse e-mail ?*</label>
+                    <input type="email" name="mail">
+                    <label for="subject">C'est à quel sujet ?</label>
+                    <input type="text" name="subject">
+                    <label for="message">Saisissez votre message ici*</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <input type="checkbox" name="rgpd" id="rgpd" class="attached-label" value="agree">
+                    <label for="rgpd" class="attached-label">J’ai lu et accepte la politique de confidentialité du site Tactic emploi.</label>
+                    <input type="submit" value="Envoyer" class="btn submit">
+                </form>
+                <span id="warning"></span>
+        </div>
+
+    </section>
+    <footer>
+        <div id="partner" class="padding-high">
+            <p class="text-primary padding-base">Projets soutenus par</p>
+            <div id="partner-logo">
+                <img src="../images/logos/stiich.png" alt="Stiich">
+                <img src="../images/logos/owl-vision.png" alt="Owl Vision">                
+            </div>
+        </div>
+        <div id="info">
+            <h3 class="padding-medium">CONTACT</h3>
+            <h2>Tactic Emploi</h2>
+            <p class="text-primary padding-base">Rue du Bois Colau 321, 5350 Ohey </p>
+            <p class="text-primary padding-base">080 98 38 33</p>
+
+            <ul>
+                <li><a href="#">Formulaire de contact</a></li>
+                <li><a href="#">Plan et itinéraire</a></li>
+            </ul>
+
+            <p class="text-primary padding-base">N° d’entreprise BE0812 345 678 </p>
+        </div>
+        
+    </footer>
+    <footer id="legal">
+        <p class="light-blue">&copy; 2019 Tactic Emploi - Tous droits réservés - <a href="#">Vie privée</a></p>
+    </footer>
+    <script src="../js/interface.js"></script>
+</body>
+</html>
